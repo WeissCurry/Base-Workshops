@@ -180,13 +180,13 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col px-4 items-center min-h-[calc(100vh-80px)] gap-3 bg-blue-100 z-10">
+    <div className="flex flex-col px-4 items-center min-h-[calc(100vh-80px)] gap-3 bg-blue-100">
       <Image
         src={"/rps-logo.png"}
         alt="logo"
         width={200}
         height={200}
-        className="cursor-pointer z-50"
+        className="cursor-pointer z-10"
       />
 
       {/* Create Game Button */}
