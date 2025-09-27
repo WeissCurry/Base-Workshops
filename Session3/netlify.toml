@@ -1,0 +1,15 @@
+# File: netlify.toml
+
+# Pengaturan utama untuk proses build
+[build]
+    # Perintah yang dijalankan Netlify untuk membangun proyek kamu
+    command = "next build"
+    
+    # Direktori output hasil dari 'next build' yang akan di-deploy
+    publish = ".next"
+
+# Plugin esensial untuk fungsionalitas penuh Next.js di Netlify.
+# Plugin ini secara otomatis mengonfigurasi redirects, rewrites, 
+# dan functions untuk menangani SSR, ISR, API Routes, dan Image Optimization.
+[[plugins]]
+    package = "@netlify/plugin-nextjs"
