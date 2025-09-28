@@ -15,7 +15,7 @@ export const minikitConfig = {
     signature: "MHhjMTFhNTI0YzViZDA5ODM3MDAwNGY4Njg3ZGZmMmY5Mjg1N2QzMzY4NmI4YWI1ZTI5NDg2OTE0M2ZjYzIwOTEwNDg2N2FiOTRmZDBlYzk1ZmEwODAzOGMyNmRiN2QwNTMxNmI3OGFkNWUwZDhkYjA3ODIyYzRiZmY5YTdiYWJlZTFj",
   },
   baseBuilder: {
-    allowedAddresses: [],
+    allowedAddresses: ["0xE99C4D4692bBB420218c5cB4606d8a917CD8A312"],
   },
   miniapp: {
     version: "1",
